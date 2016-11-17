@@ -12,6 +12,29 @@ public class Employee extends Person implements Wage {
         this.missedDays = missedDays;
     }
 
+    public double getRate() {
+        return rate;
+    }
+
+    public void setRate(double rate) {
+        this.rate = rate;
+    }
+
+    public int getWorkedDays() {
+        return workedDays;
+    }
+
+    public void setWorkedDays(int workedDays) {
+        this.workedDays = workedDays;
+    }
+
+    public int getMissedDays() {
+        return missedDays;
+    }
+
+    public void setMissedDays(int missedDays) {
+        this.missedDays = missedDays;
+    }
 
     @Override
     public double calcIncome() {
